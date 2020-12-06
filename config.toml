@@ -1,0 +1,64 @@
+baseurl = "http://aprs.hb9tf.ch/"
+title = "HB9TF APRS"
+
+languageCode = "en-us"
+theme = "hugo-whisper-theme"
+
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
+
+# Controls how many words are printed in the content summary on the docs homepage.
+# See https://gohugo.io/content-management/summaries/
+summaryLength = 30
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+# [[menu.main]]
+#     name = "Blog"
+#     url = "/blog/"
+#     weight = 2
+
+# [[menu.main]]
+#     name = "Systems"
+#     url = "/systems/"
+#     weight = 3
+
+[[menu.main]]
+    name = "HB9TF-1"
+    url = "/systems/hb9tf-1"
+    weight = 4
+
+[[menu.main]]
+    name = "HB9TF-2"
+    url = "/systems/hb9tf-2"
+    weight = 5
+
+[params]
+  google_analytics_id=""
+  homepage_button_link = '/systems'
+  homepage_button_text = 'Learn more'
+  homepage_intro = "The Tango Foxtrot Wireless Society HB9TF maintains multiple APRS installations across Switzerland. This website provides glimpse into the specifics of HB9TF's APRS systems and features insights into different aspects of the data received."
+  homepage_image = ''
+  enable_anchor_link = true
+  mainSections = ["blog", "systems"]
+
+  [params.homepage_meta_tags]
+    meta_description = ""
+    meta_og_title = "HB9TF APRS"
+    meta_og_type = "website"
+    meta_og_url = "https://aprs.hb9tf.ch"
+    meta_og_image = "https://aprs.hb9tf.ch/images/logo.png"
+    meta_og_description = ""
+
+  [params.logo]
+      mobile = "/images/logo.png"
+      standard  = "/images/logo.png"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
