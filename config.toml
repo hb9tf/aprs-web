@@ -21,24 +21,24 @@ summaryLength = 30
     url = "/blog/"
     weight = 2
 
+[[menu.main]]
+    name = "Systems"
+    url = "/systems/"
+    weight = 3
+
 # [[menu.main]]
-#     name = "Systems"
-#     url = "/systems/"
-#     weight = 3
-
-[[menu.main]]
-    name = "HB9TF-1"
-    url = "/systems/hb9tf-1"
-    weight = 4
-
-[[menu.main]]
-    name = "HB9TF-2"
-    url = "/systems/hb9tf-2"
-    weight = 5
+#     name = "HB9TF-1"
+#     url = "/systems/hb9tf-1"
+#     weight = 4
+#
+# [[menu.main]]
+#     name = "HB9TF-2"
+#     url = "/systems/hb9tf-2"
+#     weight = 5
 
 [params]
   google_analytics_id=""
-  homepage_button_link = '/systems'
+  homepage_button_link = '/blog'
   homepage_button_text = 'Learn more'
   homepage_intro = "The Tango Foxtrot Wireless Society HB9TF maintains multiple APRS installations across Switzerland. This website provides glimpse into the specifics of HB9TF's APRS systems and features insights into different aspects of the data received."
   homepage_image = ''
