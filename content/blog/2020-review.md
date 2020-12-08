@@ -1,6 +1,7 @@
 ---
-title: "The Year 2020 in Review"
+title: "The APRS Year 2020 in Review"
 date: 2021-01-01T00:00:00+01:00
+author: hb9esx
 draft: true
 ---
 
