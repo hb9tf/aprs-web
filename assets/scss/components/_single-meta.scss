@@ -1,0 +1,11 @@
+.meta {
+  color: $secondary;
+  overflow: overlay;
+  margin-bottom: 2rem;
+  .meta-author {
+    float: left;
+  }
+  .meta-reading {
+    float: right;
+  }
+}

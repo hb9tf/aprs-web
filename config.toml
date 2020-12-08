@@ -1,4 +1,4 @@
-baseurl = "http://aprs.hb9tf.ch/"
+baseurl = "https://aprs.hb9tf.ch/"
 title = "HB9TF APRS"
 
 languageCode = "en-us"
@@ -17,10 +17,10 @@ summaryLength = 30
     url = "/"
     weight = 1
 
-# [[menu.main]]
-#     name = "Blog"
-#     url = "/blog/"
-#     weight = 2
+[[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 2
 
 # [[menu.main]]
 #     name = "Systems"

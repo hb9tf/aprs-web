@@ -1,0 +1,15 @@
+{{ define "header_css" }}{{ end }}
+{{ define "body_classes" }}page-default-single{{ end }}
+{{ define "header_classes" }}{{ end }}
+
+{{ define "main" }}
+<h1 class="title">{{.Title}}</h1>
+<div class="meta">
+<div class="meta-author">Written by {{ $.Param "author" | upper }} on {{ .Date.Format "January 2, 2006" }}</div>
+<div class="meta-reading">{{.ReadingTime}} min read</div>
+</div>
+<div class="content {{if .Site.Params.enable_anchor_link}}{{ "anchor-link-enabled" }}{{ end }}">
+  {{.Content}}
+</div>
+</div>
+{{ end }}
